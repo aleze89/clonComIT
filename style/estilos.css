@@ -1,5 +1,27 @@
 body{
     margin: 0;
     height: auto;
-    background: linear-gradient(rgba(0,0,0,.3),rgba(255,255,255,.3)), url(../img/body.jpg);
+    width: auto;
+   /* background: linear-gradient(rgba(0,0,0,.3),rgba(255,255,255,.3)) , url(../img/body.jpg) ;*/
+    
+}
+
+header{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(146, 52, 235,.6),rgba(235, 52, 216,.6),rgba(245, 120, 2,.6));
+}
+
+img[src*="encabezado"]{
+    margin: 20px;
+    border: 2px solid #FFF;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+*body ~ url {
+    height: auto;
+    opacity: .8;
+
 }
